@@ -1,0 +1,63 @@
+/* Set background image for the College Login page */
+.login-wrapper {
+    background-image: url('./images/pk.jpg'); /* Use the correct path to the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensure the background covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Styling for the login form container */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .login-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input and button styling */
+  .login-container input,
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .login-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-container label {
+    display: block;
+    text-align: left;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
